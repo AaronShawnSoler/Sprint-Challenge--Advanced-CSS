@@ -21,6 +21,12 @@
 		flex-wrap: wrap;
 		width: 100%;
 
+		.blast,
+		.sky,
+		.launch {
+			.scale-hover(0.3s);
+		}
+
 		img {
 			width: 28%;
 			margin: 20px 2.5%;
@@ -82,6 +88,7 @@
 
 			.btn {
 				.custom-btn(@ebony-clay, @wild-sand);
+				.scale-hover(0.3s);
 
 				&:hover {
 					.custom-btn(@wild-sand, @ebony-clay);
@@ -104,6 +111,7 @@
 				width: 100%;
 				height: auto;
 				border-radius: 10px;
+				.scale-hover(0.3s);
 			}
 		}
 	}

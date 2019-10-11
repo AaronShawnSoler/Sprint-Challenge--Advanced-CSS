@@ -34,3 +34,11 @@
 		font-size: 1.5rem;
 	}
 }
+
+.scale-hover(@time) {
+	transition: all @time ease-in-out;
+
+	&:hover {
+		transform: scale(1.1);
+	}
+}
