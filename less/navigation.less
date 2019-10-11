@@ -1,1 +1,22 @@
 // Navigation code here
+
+.nav-container {
+	width: 100%;
+	background: @nav-bg;
+
+	h1 {
+		font-size: 3.5rem;
+		text-align: center;
+		padding: 10px 0;
+	}
+
+	ul {
+		width: 35%;
+		.center();
+		.nav-styles();
+
+		@media @container-width {
+			width: 90%;
+		}
+	}
+}
