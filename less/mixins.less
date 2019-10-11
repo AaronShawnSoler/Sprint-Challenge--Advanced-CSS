@@ -1,1 +1,30 @@
 // Mixins Here
+
+.custom-btn(@bg-color, @color) {
+	background: @bg-color;
+	color: @color;
+	padding: 8px 16px;
+	border-radius: 5px;
+	font-size: 1.5rem;
+	display: inline-block;
+}
+
+.center() {
+	margin: 0 auto;
+}
+
+.nav-styles() {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 0;
+
+	li {
+		display: inline-block;
+	}
+
+	a {
+		text-decoration: none;
+		color: @nav-font;
+		font-size: 1.5rem;
+	}
+}
